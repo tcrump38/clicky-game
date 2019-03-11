@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://tcrump38.github.io/clicky-game/",
   "dependencies": {
-    "gh-pages": "^2.0.1",
+
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest"
@@ -16,6 +16,10 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   },
   "browserslist": [
     ">0.2%",
